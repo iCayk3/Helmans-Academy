@@ -18,7 +18,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTrialModal, onOpenStudentM
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg overflow-hidden border border-brand-gold/40">
                 <img
-                  src="/images/logo.webp"
+                  src="./images/logo.webp"
                   alt="Helmans Academy"
                   width={40}
                   height={40}

@@ -15,7 +15,7 @@ export const StructureGallery: React.FC<StructureGalleryProps> = ({ onOpenTrialM
       category: 'pesos',
       categoryLabel: 'Peso Livre',
       desc: 'Pares completos de halteres monobloco emborrachados variando de 1kg até pesos acima de 50kg, com suporte duplo reforçado.',
-      image: '/images/academia-pesos-livres.webp',
+      image: './images/academia-pesos-livres.webp',
       badge: 'Destaque Peso Livre',
     },
     {
@@ -24,7 +24,7 @@ export const StructureGallery: React.FC<StructureGalleryProps> = ({ onOpenTrialM
       category: 'maquinas',
       categoryLabel: 'Maquinário',
       desc: 'Linha completa convergente e divergente com alavancas independentes para estímulo muscular simétrico e isolamento preciso.',
-      image: '/images/academia-pesos-livres.webp',
+      image: './images/academia-pesos-livres.webp',
       badge: 'Linha Pro',
     },
     {
@@ -33,7 +33,7 @@ export const StructureGallery: React.FC<StructureGalleryProps> = ({ onOpenTrialM
       category: 'conforto',
       categoryLabel: 'Conforto & Segurança',
       desc: 'Área com piso de borracha vulcanizada de alta densidade (15mm) para absorção de impacto, aderência antiderrapante e isolamento acústico.',
-      image: '/images/academia-pesos-livres.webp',
+      image: './images/academia-pesos-livres.webp',
       badge: 'Segurança',
     },
   ];

@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenTrialModal }) => {
         />
         {/* Subtle texture overlay of real gym weights */}
         <img
-          src="/images/academia-pesos-livres.webp"
+          src="./images/academia-pesos-livres.webp"
           alt="Estrutura de musculação e pesos livres da Helmans Academy"
           className="absolute inset-0 w-full h-full object-cover object-center opacity-10 mix-blend-luminosity pointer-events-none"
           loading="eager"

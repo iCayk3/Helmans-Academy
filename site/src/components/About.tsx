@@ -32,7 +32,7 @@ export const About: React.FC<AboutProps> = ({ onOpenTrialModal }) => {
           <div className="relative order-2 lg:order-1">
             <div className="relative mx-auto max-w-md lg:max-w-none rounded-3xl overflow-hidden border border-brand-border shadow-2xl group">
               <img
-                src="/images/academia-pesos-livres.webp"
+                src="./images/academia-pesos-livres.webp"
                 alt="Estrutura de musculação da Helmans Academy"
                 width={889}
                 height={896}

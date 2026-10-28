@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenTrialModal, onOpenStudentM
           >
             <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-lg overflow-hidden border border-brand-gold/40 shadow-gold-sm transition-transform group-hover:scale-105 flex-shrink-0">
               <img
-                src="/images/logo.webp"
+                src="./images/logo.webp"
                 alt="Logo Helmans Academy"
                 width={40}
                 height={40}
