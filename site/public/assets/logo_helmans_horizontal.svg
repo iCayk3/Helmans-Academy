@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF085" />
+      <stop offset="30%" stop-color="#FFC700" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="steelH" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#52525B" />
+      <stop offset="50%" stop-color="#18181B" />
+      <stop offset="100%" stop-color="#27272A" />
+    </linearGradient>
+    <filter id="glowH">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#FFC700" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon Emblem (Scale & Centered around x=70, y=70) -->
+  <g transform="translate(15, 10) scale(0.2)">
+    <!-- Barbell Bar -->
+    <rect x="20" y="288" width="560" height="24" rx="4" fill="#A1A1AA" />
+    <!-- Plates Left -->
+    <rect x="70" y="195" width="28" height="210" rx="10" fill="url(#steelH)" stroke="#FFC700" stroke-width="4" />
+    <rect x="105" y="220" width="24" height="160" rx="8" fill="url(#steelH)" stroke="#FFC700" stroke-width="3" />
+    <!-- Plates Right -->
+    <rect x="470" y="220" width="24" height="160" rx="8" fill="url(#steelH)" stroke="#FFC700" stroke-width="3" />
+    <rect x="500" y="195" width="28" height="210" rx="10" fill="url(#steelH)" stroke="#FFC700" stroke-width="4" />
+    <!-- Shield -->
+    <polygon points="300,90 460,185 435,420 300,510 165,420 140,185" fill="#111318" stroke="url(#goldH)" stroke-width="10" />
+    <!-- Monogram HA -->
+    <polygon points="185,190 235,190 235,410 185,385" fill="url(#goldH)" />
+    <polygon points="235,275 320,275 320,320 235,320" fill="url(#goldH)" />
+    <polygon points="275,190 325,190 325,445 275,415" fill="url(#goldH)" />
+    <polygon points="335,190 415,190 375,415 325,415 365,245 335,245" fill="url(#goldH)" />
+    <polygon points="335,310 395,310 385,350 335,350" fill="url(#goldH)" />
+  </g>
+
+  <!-- Typography: HELMANS ACADEMY -->
+  <text x="155" y="66" 
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="34" 
+        font-weight="900" 
+        letter-spacing="2" 
+        fill="#FFFFFF">
+    HELMANS
+  </text>
+  <text x="345" y="66" 
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="34" 
+        font-weight="900" 
+        letter-spacing="2" 
+        fill="url(#goldH)"
+        filter="url(#glowH)">
+    ACADEMY
+  </text>
+
+  <!-- Subtitle Tagline & Badge -->
+  <rect x="155" y="84" width="70" height="20" rx="4" fill="#FFC700" />
+  <text x="190" y="98" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="11" 
+        font-weight="900" 
+        letter-spacing="1.5" 
+        fill="#090A0F" 
+        text-anchor="middle">
+    SAAS
+  </text>
+
+  <text x="235" y="98" 
+        font-family="system-ui, -apple-system, sans-serif" 
+        font-size="12" 
+        font-weight="600" 
+        letter-spacing="3" 
+        fill="#94A3B8">
+    GESTÃO INTELIGENTE &amp; PERFORMANCE
+  </text>
+</svg>

@@ -1,0 +1,22 @@
+services:
+  helmans-postgres:
+    image: postgres:16-alpine
+    container_name: helmans-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-helmans_admin}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-helmans_secure_pass_2026}
+      POSTGRES_DB: ${DB_NAME:-helmans_academy}
+    ports:
+      - "5434:5432"
+    volumes:
+      - helmans_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-helmans_admin} -d ${DB_NAME:-helmans_academy}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  helmans_pgdata:
+    name: helmans_pgdata
