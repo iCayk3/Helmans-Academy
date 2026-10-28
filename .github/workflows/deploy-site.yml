@@ -1,4 +1,5 @@
 name: Deploy Helmans Academy Site to GitHub Pages
+# Triggering automated deployment
 
 on:
   push:
